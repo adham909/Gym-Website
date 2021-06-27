@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+.scroll-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: block;
+    background-color: #333;
+    color: #FFF;
+    padding: 5px 8px;
+    display: none;
+}
+.scroll-to-top:hover{
+    color: #FFF;
+    background-color: #c7180c;
+}
+nav{
+    transition: 1s all ease;
+}
+.navbar-light .navbar-toggler{
+    color: #FFF;
+}
+.head{
+    background-image: url(../images/man-holding-black-dumbbell-1229356.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    height: 63px;
+}
+header video{
+    position: absolute;
+}
+.navbar-light .navbar-brand{
+    color: #FFF;
+    margin-left: 30px;
+    font-weight: 800;
+}
+.navbar-light .navbar-brand span{
+    color: #f23a2e;
+    font-size: 25px;
+}
+.navbar-light .navbar-brand:hover{
+    color: #FFF;
+}
+.navbar-expand-lg .navbar-nav{
+    margin-left: auto;
+    margin-right: 150px;
+}
+.mr-auto, .mx-auto{
+    margin-right: 0px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link,.navbar-light .navbar-nav .nav-link{
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: 2px solid #FFF;
+    color: #fff;
+}
+.navbar-light .nav-item .active {
+    border-bottom: 2px solid #FFF;
+    color: #fff;
+}
+.header-contain{
+    position: relative;
+    z-index: 1;
+    top: 200px;
+    color: #FFF;
+    text-align: center;
+    min-height: 980px;
+}
+.header-contain h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.header-contain p{
+    color: white;
+    font-size: 1.4rem;
+    padding: 0 150px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header-contain button{
+    background-color: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-weight: 500;
+    transition: 1s all ease;
+}
+.header-contain button:hover{
+    background-color: #fff;
+    color: black;
+}
+.bg .navbar-brand{
+    color: black;
+}
+.bg .navbar-brand:hover{
+    color: black;
+}
+.bg .navbar-nav .active>.nav-link, .bg .navbar-nav .nav-link.active, .bg .navbar-nav .nav-link.show, .bg .navbar-nav .show>.nav-link,.bg .navbar-nav .nav-link{
+    color: #000;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+.bg .navbar-nav .nav-link:hover{
+    border-bottom: 2px solid #f23a2e;
+    color: #f23a2e;
+}
+.bg .navbar-nav .nav-item .active{
+    border-bottom: 2px solid #f23a2e;
+    color: #f23a2e;
+}
+.bg{
+    background-color: #FFF;
+    box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
+}
+.hours-working{
+    background-color: #f23a2e;
+    position: relative;
+    top: -75px;
+    max-width: 50%;
+    padding: 50px 25px;
+    color: #FFF;
+}
+.hours-working h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.hours-working p{
+    font-size: 17px;
+}
+.hours-working button{
+    border: none;
+    text-align: center;
+    background: #f89d13;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.hours-working .btn{
+    position: relative;
+    top: 4px;
+}
+.healthy,.classes,.shedule,.trainer,.services,.contact{
+    padding: 200px 0 50px 0;
+    margin: auto;
+    width: 800px;
+}
+.healthy p,.classes p,.shedule p,.trainer p,.services p,.contact p{
+    color: #ababab;
+    font-size: 20px;
+}
+.healthy h1,.classes h1,.shedule h1,.trainer h1,.services h1,.contact h1{
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background-color: #CCC;
+    padding: 5px !important;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.active{
+    background-color: #f23a2e;
+}
+.owl-carousel{
+    padding-top: 30px;
+}
+.carousel{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.carousel .owl-carousel.owl-drag .owl-item.active{
+    margin: 30px 0;
+    width: 330px;
+
+}
+.carousel .owl-carousel.owl-drag .owl-item:hover{
+   box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.3);
+}
+.fa-lg{
+    font-size: 50px;
+    color: #f23a2e;
+    margin-top: 50px;
+}
+.carousel .owl-carousel.owl-drag .owl-item .text{
+    padding: 50px;
+}
+.carousel .owl-carousel.owl-drag .owl-item .text h3{
+    font-weight: bold;
+    font-family:inherit;
+    font-size: 25px;
+}
+.carousel .owl-carousel.owl-drag .owl-item .text p{
+    color: #989898;
+    font-size: 18px;
+}
+
+.result,.result2,.result3{
+    margin-top: 100px;
+    height: 500px;
+    position: relative;
+}
+.result{
+    background-image: url(../images/bg_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result2{
+    background-image: url(../images/bg_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result3{
+    background-image: url(../images/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result:before,.result2:before,.result3:before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+}
+.result .container,.result2 .container,.result3 .container{
+    padding-top: 14%;
+    color: #FFF;
+    z-index: 2;
+    position: relative;
+}
+.result .container h2,.result2 .container h2,.result3 .container h2{
+    font-weight: bold;
+    font-size: 55px;
+}
+.result .container p,.result2 .container p,.result3 .container p{
+    font-weight: 400;
+    font-size: 18px
+}
+.result .container p a,.result2 .container p a,.result3 .container p a{
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: 1px solid #FFF;
+}
+.result .container p a:hover,.result2 .container p a:hover,.result3 .container p a:hover{
+    border-bottom:none;
+}
+
+.classes-content img{
+    width: 100px;
+    height: 100px;
+}
+.classes-content .class1{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: .3s all ease;
+    z-index: 1;
+    height: 100px;
+    border-radius: 6px;
+}
+.classes-content .class1:hover{
+    transform: scale(1.2);
+    background-color: #f23a2e;
+    color: #FFF;
+    z-index: 2
+}
+.classes-content .class1 p{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.classes-content .class1 h3{
+    font-size: 20px;
+}
+.shedule-days .days{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.shedule-days .days li {
+    padding: 15px 76px;
+    background-color: #DDD;
+    color: #f23a2e;
+    cursor: pointer;
+}
+
+.shedule-days ul .active{
+    background-color: #f23a2e;
+    color: #fff;
+}
+.shedule-days ul li:hover{
+    background-color: #f23a2e;
+    color: #fff;
+}
+.content-list > div:not(:first-child){
+    display: none;
+}
+.trainers img{
+    max-width: 100px;
+    border-radius: 50%;
+}
+.trainers h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.trainers h6{
+    color: #CCC;
+}
+.trainers p{
+    color: #989898;
+    margin-top: 14px;
+}
+.services1 .item{
+    height: 400px;
+    text-align: center;
+}
+.services1 .item .icon{
+    padding-bottom: 20px;
+}
+.services1 .item .text{
+    padding: 45px 20px 0px 20px;
+}
+.services1 .item:hover{
+     box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.3);
+    
+}
+.contactus{
+    background-color: #f8f9fa;
+    margin-top: 200px;
+    height: 1070px;
+}
+.contactus form .firstname,.lastname{
+    display: inline-block;
+}
+form{
+    padding-top: 50px;
+}
+form div input,form div textarea,form div button{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    border: 1px solid #ced4da;
+}
+form div textarea{
+    height: 200px;   
+}
+form div button{
+    font-weight: 600;
+    border-color: #f23a2e;
+    background: #f23a2e;
+    color: #FFF;
+    border-radius: 4px;
+}
+footer{
+    margin-top: 100px;
+}
+footer h5{
+    color: #343a40;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 700;
+        
+}
+footer p{
+    font-size: 14px;
+    color: #989898;
+}
+footer ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+footer ul li a{
+    color: #f23a2e;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: #c7180c;
+    text-decoration: none;
+}
+footer input[type="text"]{
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ced4da;
+}
+footer input[type="button"]{
+    padding: 10px;
+    width: 29%;
+    font-weight: 600;
+    background-color: #c7180c;
+    color: #FFF;
+    border: none;
+    margin-left: 1px;
+}
